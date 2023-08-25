@@ -1,6 +1,6 @@
 [gd_scene load_steps=14 format=2]
 
-[ext_resource path="res://addons/lhdiagedit/view.gd" type="Script" id=1]
+[ext_resource path="res://view.gd" type="Script" id=1]
 
 [sub_resource type="Image" id=13]
 data = {
@@ -106,7 +106,7 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
-margin_right = 360.0
+margin_right = 1024.0
 margin_bottom = 20.0
 
 [node name="filemenu" type="MenuButton" parent="VBoxContainer/HBoxContainer"]
@@ -124,17 +124,17 @@ text = "Node"
 items = [ "Node", SubResource( 6 ), 0, false, false, 0, 0, null, "", false, "FuncRef", SubResource( 8 ), 0, false, false, 1, 0, null, "", false, "Conditional", SubResource( 10 ), 0, false, false, 2, 0, null, "", false, "Choice", SubResource( 12 ), 0, false, false, 3, 0, null, "", false ]
 
 [node name="Label" type="Label" parent="VBoxContainer/HBoxContainer"]
-margin_left = 333.0
+margin_left = 997.0
 margin_top = 3.0
-margin_right = 360.0
+margin_right = 1024.0
 margin_bottom = 17.0
 size_flags_horizontal = 10
 text = "0.1a"
 
 [node name="GraphEdit" type="GraphEdit" parent="VBoxContainer"]
 margin_top = 24.0
-margin_right = 360.0
-margin_bottom = 240.0
+margin_right = 1024.0
+margin_bottom = 600.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 right_disconnects = true
